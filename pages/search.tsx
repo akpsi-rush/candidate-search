@@ -46,11 +46,13 @@ const Search = () => {
   initFirebase();
   const db = getDatabase();
   // CHANGE THIS WHENEVER SWITCHING ROUNDS
-  const candidatesRef = ref(db, "info-night");
+  const DATABASE_ROUTE = "application";
+  const candidatesRef = ref(db, DATABASE_ROUTE);
   const [candidateData, setCandidateData] = useState<Candidate[]>([]);
   const [filteredCandidates, setFilteredCandidates] = useState<Candidate[]>([]);
   const [copiedIndexes, setCopiedIndexes] = useState<number[]>([]);
   const { isMobile } = useMobile();
+  console.log(candidateData.length)
 
   useEffect(() => {
     const fetchData = async () => {
