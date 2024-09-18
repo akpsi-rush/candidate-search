@@ -46,7 +46,7 @@ const Search = () => {
   initFirebase();
   const db = getDatabase();
   // CHANGE THIS WHENEVER SWITCHING ROUNDS
-  const DATABASE_ROUTE = "application";
+  const DATABASE_ROUTE = "social-stage";
   const candidatesRef = ref(db, DATABASE_ROUTE);
   const [candidateData, setCandidateData] = useState<Candidate[]>([]);
   const [filteredCandidates, setFilteredCandidates] = useState<Candidate[]>([]);
