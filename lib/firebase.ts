@@ -14,7 +14,8 @@ import { getDatabase } from "firebase/database";
   projectId: "spring-2025-rush",
   storageBucket: "spring-2025-rush.firebasestorage.app",
   messagingSenderId: "1068163791827",
-  appId: "1:1068163791827:web:d1611aaed60abb885f8d26"
+  appId: "1:1068163791827:web:d1611aaed60abb885f8d26",
+  measurementId: "G-KE2PXW76EQ"
 };
 
 // const firebaseConfig = {
