@@ -15,18 +15,25 @@ export interface Candidate {
 
 function parseRawCandidates(data: any[]): Candidate[] {
   let candidates: Candidate[] = [];
+  // console.log(data)
   data.forEach((item, idx: number) => {
-    const newCand: Candidate = {
-      email: item["email"],
-      firstName: item["firstName"],
-      lastName: item["lastName"],
-      fullName: `${item["firstName"]} ${item["lastName"]}`,
-      netId: item["netId"].toLowerCase(),
-    };
-    candidates.push(newCand);
+
+    try {
+      const newCand: Candidate = {
+        email: item["email"],
+        firstName: item["firstName"],
+        lastName: item["lastName"],
+        fullName: `${item["firstName"]} ${item["lastName"]}`,
+        netId: item["netId"].toLowerCase(),
+      };
+      candidates.push(newCand);
+    } catch  {
+      console.log("issue with", item)
+    }
+
   });
   const withoutDuplicates = removeDuplicates(candidates);
-  console.log(withoutDuplicates.length, candidates.length);
+  // console.log(withoutDuplicates.length, candidates.length);
   return withoutDuplicates;
 }
 
@@ -52,7 +59,7 @@ const Search = () => {
   const [filteredCandidates, setFilteredCandidates] = useState<Candidate[]>([]);
   const [copiedIndexes, setCopiedIndexes] = useState<number[]>([]);
   const { isMobile } = useMobile();
-  console.log(candidateData.length)
+  // console.log(candidateData.length)
 
   useEffect(() => {
     const fetchData = async () => {
