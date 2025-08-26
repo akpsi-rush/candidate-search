@@ -7,16 +7,29 @@ import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAZB6tIHLi-7jpARvMmDR-iF7sPrr1wq3I",
-  authDomain: "spring-2025-rush.firebaseapp.com",
-  databaseURL: "https://spring-2025-rush-default-rtdb.firebaseio.com",
-  projectId: "spring-2025-rush",
-  storageBucket: "spring-2025-rush.firebasestorage.app",
-  messagingSenderId: "1068163791827",
-  appId: "1:1068163791827:web:d1611aaed60abb885f8d26",
-  measurementId: "G-KE2PXW76EQ"
+  apiKey: "AIzaSyBSUIsx4g78AYOpFlAgxRTqFoTPf2O0aIw",
+  authDomain: "fall-2025-rush.firebaseapp.com",
+  databaseURL: "https://fall-2025-rush-default-rtdb.firebaseio.com",
+  projectId: "fall-2025-rush",
+  storageBucket: "fall-2025-rush.firebasestorage.app",
+  messagingSenderId: "58244345125",
+  appId: "1:58244345125:web:46a32bd0ea46df34fd3ecc",
+  measurementId: "G-NKJRZNT2BW"
 };
+
+//Spring 2025
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAZB6tIHLi-7jpARvMmDR-iF7sPrr1wq3I",
+//   authDomain: "spring-2025-rush.firebaseapp.com",
+//   databaseURL: "https://spring-2025-rush-default-rtdb.firebaseio.com",
+//   projectId: "spring-2025-rush",
+//   storageBucket: "spring-2025-rush.firebasestorage.app",
+//   messagingSenderId: "1068163791827",
+//   appId: "1:1068163791827:web:d1611aaed60abb885f8d26",
+//   measurementId: "G-KE2PXW76EQ"
+// };
 
 // const firebaseConfig = {
 //   apiKey: "AIzaSyB0mkJ86kq8EAdih5YbiPh7hzegbm5GCGA",
