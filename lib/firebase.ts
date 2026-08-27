@@ -10,14 +10,14 @@ import { getDatabase } from "firebase/database";
 
 // Spring 2026
 const firebaseConfig = {
-  apiKey: "AIzaSyB5GlDJ2Flc2B32mphp2iNkG_ElWiUSFrM",
-  authDomain: "spring-2026-rush.firebaseapp.com",
-  databaseURL: "https://spring-2026-rush-default-rtdb.firebaseio.com",
-  projectId: "spring-2026-rush",
-  storageBucket: "spring-2026-rush.firebasestorage.app",
-  messagingSenderId: "1080896995481",
-  appId: "1:1080896995481:web:36f953349cfbc0e7c2f808",
-  measurementId: "G-KGJ0GLMYLX"
+  apiKey: "AIzaSyA0c7lbry1m4K-jFjXGjNP5MULFkYiOK1w",
+  authDomain: "fall-2026-rush.firebaseapp.com",
+  databaseURL: "https://fall-2026-rush-default-rtdb.firebaseio.com",
+  projectId: "fall-2026-rush",
+  storageBucket: "fall-2026-rush.firebasestorage.app",
+  messagingSenderId: "327589427248",
+  appId: "1:327589427248:web:cd8b56721564fb4047d5f5",
+  measurementId: "G-1E4Z7WCJZZ"
 };
 
 // fall 2025
