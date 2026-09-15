@@ -8,7 +8,7 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-// Spring 2026
+// Fall 2026
 const firebaseConfig = {
   apiKey: "AIzaSyA0c7lbry1m4K-jFjXGjNP5MULFkYiOK1w",
   authDomain: "fall-2026-rush.firebaseapp.com",
@@ -19,6 +19,7 @@ const firebaseConfig = {
   appId: "1:327589427248:web:cd8b56721564fb4047d5f5",
   measurementId: "G-1E4Z7WCJZZ"
 };
+
 
 // fall 2025
 // const firebaseConfig = {
